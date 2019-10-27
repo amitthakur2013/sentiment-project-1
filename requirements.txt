@@ -1,0 +1,6 @@
+Flask==1.1.1
+gunicorn==19.9.0
+matplotlib>=1.4.3
+numpy>=1.9.2
+textblo==0.15.2
+tweepy==3.8.0

@@ -26,10 +26,10 @@ def predict():
     int_features = [x for x in request.form.values()]
     final_features = [np.array(int_features)]
     
-    consumerKey="58QZ1yew4RiK6Kdh1cFOrlqPO"
-    consumerSecret="pvS4xUHSP84CNsWlxP6YH8rxgFP7ZJzUmVCekHvDuI0vk5bkGb"
-    accessToken="598985744-sG96Q21U46ehBRqeLs0kfJhz6MEcX47opk089rbX"
-    accessTokenSecret="y8nziEiYJLpWiFcbVEgccYClOrcQWbn3gHSQZorwKdXBn"
+    consumerKey="********************"
+    consumerSecret="***********************"
+    accessToken="*************************"
+    accessTokenSecret="***********************"
 
     auth =tweepy.OAuthHandler(consumer_key=consumerKey, consumer_secret=consumerSecret)
     auth.set_access_token(accessToken, accessTokenSecret)
